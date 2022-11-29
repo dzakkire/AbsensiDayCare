@@ -13,19 +13,19 @@ void pendaftaran(){
 	string namaortu, namaanak, alergipenyakit, pekerjaanortu, alamatasal, alamatsaatini, alamatkantor;
 	int usia;
 	
-	cout<<" \t\t\t\t========================= "<<endl;
-	cout<<" \t\t\t\t====== PENDAFTARAN ====== "<<endl;
-	cout<<" \t\t\t\t======== DAYCARE ======== "<<endl;
-	cout<<" \t\t\t\t========================= "<<endl;
+	cout<<" ========================= "<<endl;
+	cout<<" ====== PENDAFTARAN ====== "<<endl;
+	cout<<" ======== DAYCARE ======== "<<endl;
+	cout<<" ========================= "<<endl;
 	cout<<endl;
-	cout<<" \t\t\t\tMasukkan Nama Orang Tua      : ";cin>>namaortu;getline(cin, namaortu);
-	cout<<" \t\t\t\t\n Masukkan Nama Anak           : ";cin>>namaanak;getline(cin, namaanak);
-	cout<<" \t\t\t\t\n Masukkan Usia Anak           : ";cin>>usia;
-	cout<<" \t\t\t\t\n Riwayat Penyakit/Alergi Anak : ";cin>>alergipenyakit;getline(cin, alergipenyakit);
-	cout<<" \t\t\t\t\n Pekerjaan Orang Tua          : ";cin>>pekerjaanortu;getline(cin, pekerjaanortu);
-	cout<<" \t\t\t\t\n Alamat Asal                  : ";cin>>alamatasal;getline(cin, alamatasal);
-	cout<<" \t\t\t\t\n Alamat Saat Ini              : ";cin>>alamatsaatini;getline(cin, alamatsaatini);
-	cout<<" \t\t\t\t\n Alamat Kantor                : ";cin>>alamatkantor;getline(cin, alamatkantor);
+	cout<<" Masukkan Nama Orang Tua      : ";cin>>namaortu;getline(cin, namaortu);
+	cout<<" \n Masukkan Nama Anak           : ";cin>>namaanak;getline(cin, namaanak);
+	cout<<" \n Masukkan Usia Anak           : ";cin>>usia;
+	cout<<" \n Riwayat Penyakit/Alergi Anak : ";cin>>alergipenyakit;getline(cin, alergipenyakit);
+	cout<<" \n Pekerjaan Orang Tua          : ";cin>>pekerjaanortu;getline(cin, pekerjaanortu);
+	cout<<" \n Alamat Asal                  : ";cin>>alamatasal;getline(cin, alamatasal);
+	cout<<" \n Alamat Saat Ini              : ";cin>>alamatsaatini;getline(cin, alamatsaatini);
+	cout<<" \n Alamat Kantor                : ";cin>>alamatkantor;getline(cin, alamatkantor);
 	cout<<endl;
 	cout<<" Nama: "<<namaanak<<", Usia: "<<usia<<", Riwayat Penyakit/Alergi: "<<alergipenyakit<<endl;
 }
