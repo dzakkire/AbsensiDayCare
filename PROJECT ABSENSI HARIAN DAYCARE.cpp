@@ -105,8 +105,8 @@ void login(){
 		cout<<" Masukkan Password : ";cin>>pass;
 		cout<<endl;
 		
-		realusername = "dutafirdaus";
-		realpass = "dutafirdausterbaik";
+		realusername = "daycare";
+		realpass = "kel4";
 		
 		if(username == realusername && pass == realpass){
 			do{
